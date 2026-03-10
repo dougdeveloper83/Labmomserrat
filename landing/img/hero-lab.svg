@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="480" viewBox="0 0 620 480" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustracion de laboratorio clinico</title>
+  <desc id="desc">Diseño vectorial de un laboratorio moderno con elementos medicos.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#eaf4ff"/>
+      <stop offset="100%" stop-color="#dff6ec"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b4f9f"/>
+      <stop offset="100%" stop-color="#2f80d8"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#0d2f56" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="620" height="480" rx="34" fill="url(#bg)"/>
+
+  <g opacity="0.28">
+    <circle cx="540" cy="82" r="58" fill="#a5c9f1"/>
+    <circle cx="90" cy="370" r="78" fill="#bce8d3"/>
+    <circle cx="200" cy="66" r="30" fill="#b6daf8"/>
+  </g>
+
+  <rect x="135" y="105" width="350" height="250" rx="24" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="160" y="135" width="175" height="188" rx="16" fill="#f2f8ff"/>
+  <rect x="352" y="135" width="108" height="80" rx="14" fill="url(#panel)"/>
+  <rect x="352" y="232" width="108" height="91" rx="14" fill="#e7f2ff"/>
+
+  <g fill="#1ea567">
+    <rect x="375" y="159" width="62" height="10" rx="5"/>
+    <rect x="400" y="134" width="12" height="60" rx="6"/>
+  </g>
+
+  <g fill="#0b4f9f">
+    <circle cx="207" cy="176" r="18"/>
+    <rect x="200" y="196" width="14" height="60" rx="7"/>
+    <rect x="177" y="236" width="60" height="12" rx="6"/>
+    <rect x="176" y="269" width="62" height="11" rx="5" fill="#2f80d8"/>
+  </g>
+
+  <g fill="#0f2f53">
+    <rect x="172" y="295" width="152" height="9" rx="4.5"/>
+    <rect x="370" y="261" width="72" height="9" rx="4.5"/>
+    <rect x="370" y="280" width="72" height="9" rx="4.5"/>
+    <rect x="370" y="299" width="55" height="9" rx="4.5"/>
+  </g>
+
+  <rect x="227" y="62" width="164" height="48" rx="14" fill="#ffffff" filter="url(#shadow)"/>
+  <text x="309" y="94" text-anchor="middle" font-size="24" font-family="Manrope, Segoe UI, sans-serif" fill="#0b4f9f" font-weight="700">
+    LAB
+  </text>
+</svg>
